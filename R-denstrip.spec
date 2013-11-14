@@ -39,7 +39,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 
 %files
 %dir %{rlibdir}/%{packname}
-%doc %{rlibdir}/%{packname}/doc
+%doc %{rlibdir}/%{packname}/CITATION
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/DESCRIPTION
 %doc %{rlibdir}/%{packname}/NEWS
